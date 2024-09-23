@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000000; /* Fundo suave */
+    background-color: #000000; 
 }
 
 header {
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* Fundo claro ao passar o mouse */
+    background-color: rgba(255, 255, 255, 0.3); 
     color: #000000; /* Muda a cor do texto */
 }
 
