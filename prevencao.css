@@ -1,0 +1,147 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+}
+
+header {
+    background-color: #ff5722;
+    background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p2/538195-incendios-florestais-queimando-arvore-em-chamas-de-fogo-ilustracaoial-vetor.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 30px; /* Aumenta o espaço */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+nav ul {
+    font-size: 1.3em; /* Tamanho da fonte */
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px; /* Espaço acima do menu */
+}
+
+nav ul li {
+    margin: 0 10px; /* Ajusta margens */
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+    color: #000000; /* Muda a cor do texto */
+}
+
+main {
+    padding: 20px; /* Espaçamento maior */
+}
+
+section {
+    margin-bottom: 40px; /* Espaçamento maior entre seções */
+}
+
+h1 {
+    color: #ffffff;
+    margin: 10px 0;
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 1px 1px 2px #000000;
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+h2 {
+    color: #fffdfd;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5em;
+    margin: 30px 0;
+    font-style: italic;
+}
+
+ul {
+    margin: 20px 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; /* Aumenta o espaçamento entre os itens */
+}
+
+li {
+    list-style-type: none; /* Remove os marcadores da lista */
+    color: #e6dcdc; /* Cor do texto dos itens da lista */
+}
+
+li strong {
+    display: block; /* Para garantir que o padding funcione corretamente */
+    padding: 20px; /* Aumenta o espaço interno */
+    background: #505050; 
+    border-radius: 8px; 
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições para efeito */
+    color: #e6dcdc;
+}
+
+li strong:hover {
+    transform: translateY(-5px); /* Eleva o item ao passar o mouse */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+.contato {
+    text-align: center;
+    display: grid; /* Usando grid para a classe contato */
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+    gap: 20px; /* Espaçamento entre os itens */
+    margin: 20px 0; /* Margem acima e abaixo */
+}
+
+.contato a {
+    color: #e6dcdc;
+    background: #505050; /* Fundo para os links */
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.contato a:hover {
+    transform: #ff5722; /* Muda a cor de fundo ao passar o mouse */
+}
+
+img {
+    margin-top: 10px;
+    object-fit: cover; 
+    width: 360px; /* Ajusta a largura conforme o contêiner */
+    height: 360px; /* Define uma altura fixa para uniformidade */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #3e3c3c;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.5); /* Sombra superior */
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
